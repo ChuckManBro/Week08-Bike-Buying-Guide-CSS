@@ -1,0 +1,184 @@
+/*
+Dark Blue: #243763
+Orange: #F27300 (edited)
+Tan: #FFEBB7
+Darker Brown: #AD8E70
+https://colorhunt.co/palette/243763ff6e31ffebb7ad8e70
+*/
+
+* {
+	font-family: 'Londrina Solid', Impact;
+}
+
+body {
+	background-color: #243763;
+	margin: 0;
+}
+
+.page {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+}
+
+.one {
+	background-color: #243763;
+}
+
+.two {
+	background-color: #f27300;
+}
+
+.light {
+	background-color: #ffebb7;
+}
+
+header {
+	background-color: #243763;
+	color: #f27300;
+}
+
+h2 {
+	margin: 10px 20px 10px 20px;
+	font-size: 25pt;
+}
+
+main {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.quiz-block {
+	background-color: white;
+	padding: 10px;
+	border: #243763 solid 5px;
+	border-radius: 25px;
+	font-size: 25pt;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.quiz-block * {
+	margin: 10px;
+}
+
+.quiz-block img {
+	max-width: 150px;
+	max-height: 150px;
+}
+
+.question {
+	color: #243763;
+	font-weight: lighter;
+}
+
+.answers :link,
+.answers :visited {
+	color: #243763;
+	margin: 30px;
+}
+
+footer {
+	background-color: #243763;
+	display: flex;
+	justify-content: center;
+}
+
+footer * {
+	display: inline;
+	color: #ffebb7;
+	text-decoration: none;
+	font-size: 15pt;
+	font-weight: lighter;
+	padding: 0 4px 0 4px;
+	cursor: default;
+}
+
+footer :link {
+	cursor: pointer;
+}
+
+.credit {
+	display: flex;
+	justify-content: center;
+	font-size: 15pt;
+	font-weight: lighter;
+	color: #dbdddd;
+	cursor: default;
+}
+
+.credit :link,
+.credit :visited {
+	color: #dbdddd;
+	cursor: pointer;
+}
+
+.bookend-block {
+	align-self: center;
+	background-color: #dbdddd;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+	border: 5px solid #f27300;
+	border-radius: 25px;
+	color: #231d1e;
+}
+
+.bookend-block h1 {
+	font-size: 40pt;
+	margin: 10px 20px 10px 20px;
+}
+
+.bookend-block img {
+	max-width: 350px;
+	margin: 20px;
+}
+
+.bookend-block p {
+	font-size: 25pt;
+}
+
+.bookend-block p a:link,
+.bookend-block p a:visited {
+	color: #231d1e;
+	background-color: #f27300;
+	padding: 3px 12px 5px 12px;
+	border-radius: 15px;
+}
+
+.info-block {
+	align-self: center;
+	background-color: #dbdddd;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+	border: 5px solid #243763;
+	border-radius: 25px;
+	color: #231d1e;
+	font-size: 20px;
+}
+
+.info-block h3 {
+	font-size: 35px;
+	margin: 10px;
+}
+
+td {
+	padding: 4px 10px 4px 10px;
+}
+
+#form-instruction {
+	font-size: 20pt;
+	max-width: 500px;
+}
+
+#providers a{
+	color: #243763;
+}
